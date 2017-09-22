@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MyMusic</string>
+
+    <string name="label_challenge">Challenge</string>
+    <string name="label_solution">Solution</string>
+
+    <string name="activity_main">My Music</string>
+    <string name="activity_now_playing">Now Playing</string>
+    <string name="activity_details">Details</string>
+    <string name="activity_store">Music Store</string>
+    <string name="activity_search">Search</string>
+
+    <string name="header_main">Lists of artists, albums, playlists and podcasts</string>
+    <string name="header_now_playing">Now Playing</string>
+    <string name="header_details">Now Playing</string>
+    <string name="header_store">Now Playing</string>
+    <string name="header_search">Search</string>
+
+    <string name="challenge_main">The challenge here is to list in different categories in such a way the layout doesn\'t get visually polluted</string>
+    <string name="challenge_now_playing">Now Playing</string>
+    <string name="challenge_details">Now Playing</string>
+    <string name="challenge_store">Now Playing</string>
+    <string name="challenge_search">Now Playing</string>
+
+    <string name="prognostic_main">One way to overcome the challenge is to show artists, albums, playlists and podcasts as tabs and, in each one, show reccomendations as horizontal scrollable lists, with a header that leads to the ssearch.</string>
+    <string name="prognostic_now_playing">Now Playing</string>
+    <string name="prognostic_details">Now Playing</string>
+    <string name="prognostic_store">Now Playing</string>
+    <string name="prognostic_search">Now Playing</string>
+
+    <string name="button_search">Search</string>
+    <string name="button_detail">More</string>
+    <string name="button_now_playing">Play</string>
+    <string name="button_store">Buy now!</string>
+</resources>
