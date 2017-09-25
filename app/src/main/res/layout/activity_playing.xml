@@ -13,7 +13,7 @@
 
     <TextView
         style="@style/TextHeader"
-        android:text="@string/header_now_playing" />
+        android:text="@string/general_now_playing" />
     <TextView
         style="@style/TextLabel"
         android:text="@string/label_challenge" />

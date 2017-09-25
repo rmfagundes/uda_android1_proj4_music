@@ -4,32 +4,33 @@
     <string name="label_challenge">Challenge</string>
     <string name="label_solution">Solution</string>
 
+    <string name="general_now_playing">Now Playing</string>
+    <string name="general_details">Details</string>
+    <string name="general_store">Music Store</string>
+    <string name="general_search">Search</string>
+
     <string name="activity_main">My Music</string>
-    <string name="activity_now_playing">Now Playing</string>
-    <string name="activity_details">Details</string>
-    <string name="activity_store">Music Store</string>
-    <string name="activity_search">Search</string>
 
     <string name="header_main">Lists of artists, albums, playlists and podcasts</string>
-    <string name="header_now_playing">Now Playing</string>
-    <string name="header_details">Now Playing</string>
-    <string name="header_store">Now Playing</string>
-    <string name="header_search">Search</string>
-
-    <string name="challenge_main">The challenge here is to list in different categories in such a way the layout doesn\'t get visually polluted</string>
-    <string name="challenge_now_playing">Now Playing</string>
-    <string name="challenge_details">Now Playing</string>
-    <string name="challenge_store">Now Playing</string>
-    <string name="challenge_search">Now Playing</string>
-
-    <string name="prognostic_main">One way to overcome the challenge is to show artists, albums, playlists and podcasts as tabs and, in each one, show reccomendations as horizontal scrollable lists, with a header that leads to the ssearch.</string>
-    <string name="prognostic_now_playing">Now Playing</string>
-    <string name="prognostic_details">Now Playing</string>
-    <string name="prognostic_store">Now Playing</string>
-    <string name="prognostic_search">Now Playing</string>
 
     <string name="button_search">Search</string>
     <string name="button_detail">More</string>
-    <string name="button_now_playing">Play</string>
+    <string name="button_play">Play</string>
     <string name="button_store">Buy now!</string>
+
+    <!-- Challenge/Solutions -->
+    <string name="challenge_main">The challenge here is to list in different categories in such a way the layout doesn\'t get visually polluted</string>
+    <string name="prognostic_main">One way to overcome the challenge is to show artists, albums, playlists and podcasts as tabs and, in each one, show reccomendations as horizontal scrollable lists, with a header that leads to the search. The title of the app should always redirect to the MainActivity.</string>
+
+    <string name="challenge_detail">This activity must show a representative image of the album and information about the song/interpreter/album.</string>
+    <string name="prognostic_detail">The layout should be as clean as possible, with a horizontal layout on the top, containing an image to the left and a summary on the right. Under the image, there should be buttons, like PLAY and BUY. Below the summary layout, there should be more details (ability to scroll down).</string>
+
+    <string name="challenge_now_playing">This activity must show the song that\'s being played currently.</string>
+    <string name="prognostic_now_playing">The layout have a larger picture of the album, with media controls under it (play, pause and so on). At the bottom, there should be a short summary of the song/album/artist.</string>
+
+    <string name="challenge_search">This activity must allow the user to search songs stored in the device or in the cloud. The challenge is to have a clean layout and rich search options.</string>
+    <string name="prognostic_search">At the top, there should be a search bar allowing to find by text or voice. When activated, a small layout must be exhibited allowing the user to choose the criteria(s) - author, song, style. The results are shown bellow, divided in two sections - songs the user purchased and new ones. In each song, there must be buttons to play, purchase or to show details.</string>
+
+    <string name="challenge_store">This activity must allow the user to search songs in the cloud. The challenge is to have a clean layout and rich search options.</string>
+    <string name="prognostic_store">At the top, there should be a search bar allowing to find by text or voice. When activated, a small layout must be exhibited allowing the user to choose the criteria(s) - author, song, style. The results are shown bellow and in each song there must be buttons to play a snippet, purchase or to show details.</string>
 </resources>

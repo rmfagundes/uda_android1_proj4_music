@@ -13,7 +13,7 @@
 
     <TextView
         style="@style/TextHeader"
-        android:text="@string/header_store" />
+        android:text="@string/general_store" />
     <TextView
         style="@style/TextLabel"
         android:text="@string/label_challenge" />
@@ -29,15 +29,20 @@
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="0dp"
-        android:layout_weight="1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="16dp">
+        <Button
+            android:id="@+id/button_store_detail"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/button_detail"/>
         <Button
             android:id="@+id/button_store_now_playing"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="@string/button_now_playing"/>
+            android:text="@string/button_play"/>
     </LinearLayout>
 </LinearLayout>

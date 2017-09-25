@@ -16,13 +16,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActivitySearch"
-                  android:label="@string/activity_search" />
+                  android:label="@string/general_search" />
         <activity android:name=".ActivityPlaying"
-                  android:label="@string/activity_now_playing" />
+                  android:label="@string/general_now_playing" />
         <activity android:name=".ActivityStore"
-                  android:label="@string/activity_store" />
+                  android:label="@string/general_store" />
         <activity android:name=".ActivityDetail"
-                  android:label="@string/activity_details" />
+                  android:label="@string/general_details" />
     </application>
 
 </manifest>

@@ -19,5 +19,12 @@ public class ActivityStore extends AppCompatActivity {
                 startActivity(new Intent(v.getContext(), ActivityPlaying.class));
             }
         });
+
+        ((Button)findViewById(R.id.button_store_detail)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(v.getContext(), ActivityDetail.class));
+            }
+        });
     }
 }

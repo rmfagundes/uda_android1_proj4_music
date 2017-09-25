@@ -13,19 +13,19 @@
 
     <TextView
         style="@style/TextHeader"
-        android:text="@string/header_details" />
+        android:text="@string/general_details" />
     <TextView
         style="@style/TextLabel"
         android:text="@string/label_challenge" />
     <TextView
         style="@style/TextAnswer"
-        android:text="@string/challenge_details" />
+        android:text="@string/challenge_detail" />
     <TextView
         style="@style/TextLabel"
         android:text="@string/label_solution" />
     <TextView
         style="@style/TextAnswer"
-        android:text="@string/prognostic_details" />
+        android:text="@string/prognostic_detail" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -44,6 +44,6 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="@string/button_now_playing"/>
+            android:text="@string/button_play"/>
     </LinearLayout>
 </LinearLayout>

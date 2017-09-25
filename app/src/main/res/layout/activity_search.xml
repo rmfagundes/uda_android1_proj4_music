@@ -13,7 +13,7 @@
 
     <TextView
         style="@style/TextHeader"
-        android:text="@string/header_search" />
+        android:text="@string/general_search" />
     <TextView
         style="@style/TextLabel"
         android:text="@string/label_challenge" />
@@ -43,7 +43,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="@string/button_now_playing"/>
+            android:text="@string/button_play"/>
         <Button
             android:id="@+id/button_search_store"
             android:layout_width="0dp"
